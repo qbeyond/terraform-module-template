@@ -3,6 +3,9 @@
 [![License](https://img.shields.io/github/license/qbeyond/terraform-module-template.svg)](https://github.com/qbeyond/terraform-module-template/blob/main/LICENSE)
 
 ----
+
+This is a template module. It just showcases how a module should look. This would be a short description of the module.
+
 <!-- BEGIN_TF_DOCS -->
 ## Usage
 
@@ -35,5 +38,5 @@ No resources.
 
 <!-- END_TF_DOCS -->
 
-# Contribute
+## Contribute
 
