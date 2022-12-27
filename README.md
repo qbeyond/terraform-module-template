@@ -40,3 +40,6 @@ No resources.
 
 ## Contribute
 
+Please use Pull requests to contribute.
+
+When a new Feature or Fix is ready to be released, create a new Github release and adhere to [Semantic Versioning 2.0.0](https://semver.org/lang/de/spec/v2.0.0.html).
