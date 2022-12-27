@@ -3,33 +3,43 @@
 [![License](https://img.shields.io/github/license/qbeyond/terraform-module-template.svg)](https://github.com/qbeyond/terraform-module-template/blob/main/LICENSE)
 
 ----
+
+This is a template module. It just showcases how a module should look. This would be a short description of the module.
+
 <!-- BEGIN_TF_DOCS -->
-Add a Short description of this module
+## Usage
+
+It's very easy to use!
+```hcl
+
+```
 
 ## Requirements
 
 No requirements.
 
-## Providers
+## Inputs
 
-No providers.
+No inputs.
+## Outputs
+
+No outputs.
+## Resource types
+
+No resources.
+
 
 ## Modules
 
 No modules.
-
-## Resources
+## Resources by Files
 
 No resources.
 
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
 <!-- END_TF_DOCS -->
 
-# Contribute
+## Contribute
 
+Please use Pull requests to contribute.
+
+When a new Feature or Fix is ready to be released, create a new Github release and adhere to [Semantic Versioning 2.0.0](https://semver.org/lang/de/spec/v2.0.0.html).
