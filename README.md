@@ -4,31 +4,35 @@
 
 ----
 <!-- BEGIN_TF_DOCS -->
-Add a Short description of this module
+## Usage
+
+It's very easy to use!
+```hcl
+
+```
 
 ## Requirements
 
 No requirements.
 
-## Providers
+## Inputs
 
-No providers.
+No inputs.
+## Outputs
+
+No outputs.
+## Resource types
+
+No resources.
+
 
 ## Modules
 
 No modules.
-
-## Resources
+## Resources by Files
 
 No resources.
 
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
 <!-- END_TF_DOCS -->
 
 # Contribute
