@@ -1,7 +1,7 @@
 formatter: "markdown"
 
 # Tested with this version
-# As Majorversion is 0 any change may break
+# As major version is 0 any change may break
 version: ">=0.16.0"
 
 sections:
@@ -28,7 +28,7 @@ content: |-
     {{- $resource := append $resource .Resource -}}
     {{- $_ := set .Dict .Key $resource -}}
   {{- end -}}
-  
+
   {{- $filesResources := dict -}}
   {{- $resourceTypes := dict -}}
   {{- range .Module.Resources -}}
@@ -45,7 +45,7 @@ content: |-
   ```hcl
   {{ include "examples/basic/main.tf" }}
   ```
-  
+
   {{ .Requirements }}
   {{ .Providers }}
   {{ .Inputs }}
@@ -88,7 +88,6 @@ content: |-
 
               | Name | Type |
               |------|------|
-              
               {{- range $resources -}}
                 {{- $isResource := and $.Config.Sections.Resources ( eq "resource" (printf "%s" .GetMode)) }}
                 {{- $isDataResource := and $.Config.Sections.DataSources ( eq "data source" (printf "%s" .GetMode)) }}

@@ -11,12 +11,18 @@ This is a template module. It just showcases how a module should look. This woul
 
 It's very easy to use!
 ```hcl
+provider "azurerm" {
+  features {
 
+  }
+}
 ```
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.7.0 |
 
 ## Inputs
 
